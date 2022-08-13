@@ -78,7 +78,7 @@
 .content-2 {
   background: #222;
   height: auto;
-  padding-top: 20px;
+  padding: 20px 10% 0 10%;
 }
 
 .heading {
@@ -95,17 +95,24 @@
 }
 
 .section {
-  border: 2px solid white;
+  /* border: 2px solid white; */
+  background: rgb(50, 91, 153);
   border-radius: 10px;
   color: white;
   display: grid;
-  grid-template-columns: [first] 220px;
+  grid-template-columns: [first] 300px;
   grid-template-rows: [first] 50px [second] auto [third] 40px;
   margin-bottom: 40px;
 }
 
+.section hr {
+  width: 80%;
+  border: 1px solid;
+}
+
 .section-head {
   text-align: center;
+  margin-top: 5px;
 }
 
 .section h3 {
